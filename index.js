@@ -4,7 +4,7 @@ const btn_home = document.getElementById("btn_home");
 const btn_about = document.getElementById("btn_about");
 
 function audio(){
-  var aux = `<audio autoplay loop><source src="audio.mp3"></auaudio`;
+  var aux = `<audio autoplay loop><source src="audio.mp3"></audio`;
   document.getElementById("audio").innerHTML = aux;
 }
 
