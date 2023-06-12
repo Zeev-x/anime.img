@@ -25,5 +25,5 @@ function zeev(){
   document.getElementById("result").innerHTML = teks;
 }
 
-//window.onload = home(),kiwora(),nsfw(),loli();
-window.onload = home(),zeev();
+window.onload = home(),kiwora(),nsfw(),loli();
+//window.onload = home(),zeev();
