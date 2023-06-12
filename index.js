@@ -16,4 +16,10 @@ function about(){
   btn_about.style.color = "red";
   btn_home.style.color = "black";
 }
-  window.onload = home(),kiwora(),nsfw(),loli();
+function zeev(){
+  var teks = `<h1>The website is currently undergoing maintenance</h1>`
+  document.getElementById("result").innerHTML = teks;
+}
+
+//window.onload = home(),kiwora(),nsfw(),loli();
+window.onload = home(),zeev();
