@@ -3,6 +3,10 @@ const page_about = document.getElementById("con_about");
 const btn_home = document.getElementById("btn_home");
 const btn_about = document.getElementById("btn_about");
 
+function audio(){
+  var aux = `<audio autoplay loop><source src="audio.mp3"></auaudio`;
+  document.getElementById("audio").innerHTML = aux;
+}
 
 function home(){ 
   page_home.style.display = "block";
